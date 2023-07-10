@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* The header section navbar style */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E55473;
+    padding: 5px;
+    color: white;
+    
+}
+
+.logo a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    gap: 30px;
+}
+
+.menu li{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.menu .list a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
